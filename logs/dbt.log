@@ -1,0 +1,30 @@
+[0m14:55:32.855534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B6E8CD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B6E7FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B6E7FA90>]}
+
+
+============================== 14:55:32.867467 | a662cd67-0879-4025-89fc-00d4fdd40a26 ==============================
+[0m14:55:32.867467 [info ] [MainThread]: Running with dbt=1.6.6
+[0m14:55:32.867467 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:55:32.867467 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/HP/.dbt')}
+[0m14:55:32.867467 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:55:37.017538 [debug] [MainThread]: Starter project path: C:\Users\HP\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m14:55:37.051062 [info ] [MainThread]: 
+Your new dbt project "bde" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:55:37.067195 [info ] [MainThread]: Setting up your profile.
+[0m14:55:40.499645 [info ] [MainThread]: Profile bde written to C:\Users\HP\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:55:40.499645 [debug] [MainThread]: Command `dbt init` succeeded at 14:55:40.499645 after 7.66 seconds
+[0m14:55:40.499645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B047DC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B074C8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B60664D0>]}
+[0m14:55:40.503577 [debug] [MainThread]: Flushing usage events
